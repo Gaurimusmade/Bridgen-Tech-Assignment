@@ -1,0 +1,15 @@
+
+.container {
+    border: 1px solid black;
+    margin: 10px;
+}
+.finalview{
+    border-top: 1px solid black;
+  }
+  
+  @media (min-width: 768px) {
+    .finalview {
+      border-left: 1px solid black;
+      border-top: 0;
+    }
+  }
